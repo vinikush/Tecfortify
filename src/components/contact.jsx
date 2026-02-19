@@ -25,7 +25,7 @@ export const Contact = (props) => {
       .then(
         (result) => {
           console.log(result.text)
-           alert("Thank You!!!  We will contact you soon")
+           alert("Thank You! Our team will contact you within 24 hours.")
           clearState()
         },
         (error) => {
@@ -40,10 +40,9 @@ export const Contact = (props) => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='section-title'>
-                <h2>Get In Touch</h2>
+                <h2>Start Your Transformation</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Ready to accelerate your digital journey? Speak with one of our expert consultants today. We'll get back to you within 24 hours.
                 </p>
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
@@ -55,7 +54,7 @@ export const Contact = (props) => {
                         id='name'
                         name='name'
                         className='form-control'
-                        placeholder='Name'
+                        placeholder='Full Name'
                         required
                         onChange={handleChange}
                       />
@@ -69,7 +68,7 @@ export const Contact = (props) => {
                         id='email'
                         name='email'
                         className='form-control'
-                        placeholder='Email'
+                        placeholder='Business Email'
                         required
                         onChange={handleChange}
                       />
@@ -83,7 +82,7 @@ export const Contact = (props) => {
                     id='message'
                     className='form-control'
                     rows='4'
-                    placeholder='Message'
+                    placeholder='Tell us about your project or challenge...'
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -91,17 +90,17 @@ export const Contact = (props) => {
                 </div>
                 <div id='success'></div>
                 <button type='submit' className='btn btn-custom btn-lg'>
-                  Send Message
+                  <i className='fa fa-paper-plane'></i> Send Message
                 </button>
               </form>
             </div>
           </div>
           <div className='col-md-3 col-md-offset-1 contact-info'>
             <div className='contact-item'>
-              <h3>Contact Info</h3>
+              <h3>Contact Information</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Address
+                  <i className='fa fa-map-marker'></i> Global Headquarters
                 </span>
                 {props.data ? props.data.address : 'loading'}
               </p>
@@ -122,23 +121,36 @@ export const Contact = (props) => {
                 {props.data ? props.data.email : 'loading'}
               </p>
             </div>
+            <div className='contact-item'>
+              <p>
+                <span>
+                  <i className='fa fa-clock-o'></i> Office Hours
+                </span>
+                Monday – Friday, 9:00 AM – 6:00 PM (EST)
+              </p>
+            </div>
           </div>
           <div className='col-md-12'>
             <div className='row'>
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
-                      <i className='fa fa-facebook'></i>
+                    <a href={props.data ? props.data.linkedin : '/'} aria-label='LinkedIn'>
+                      <i className='fa fa-linkedin'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
+                    <a href={props.data ? props.data.twitter : '/'} aria-label='Twitter'>
                       <i className='fa fa-twitter'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
+                    <a href={props.data ? props.data.facebook : '/'} aria-label='Facebook'>
+                      <i className='fa fa-facebook'></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.youtube : '/'} aria-label='YouTube'>
                       <i className='fa fa-youtube'></i>
                     </a>
                   </li>
@@ -151,11 +163,15 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            
+            &copy; {new Date().getFullYear()} <strong>Mobnox Innovations</strong>. All Rights Reserved.
+            {' | '}
+            <a href='#'>Privacy Policy</a>
+            {' | '}
+            <a href='#'>Terms of Service</a>
           </p>
         </div>
       </div>
     </div>
   )
 }
+
