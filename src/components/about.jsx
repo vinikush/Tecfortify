@@ -5,11 +5,11 @@ export const About = (props) => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+            <img src="img/about.jpg" className="img-responsive about-img" alt="Mobnox Innovations - Global Consulting" />{" "}
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2>About Us</h2>
+              <h2>About Mobnox Innovations</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
               <h3>Why Choose Us?</h3>
               <div className="list-style">
@@ -17,7 +17,7 @@ export const About = (props) => {
                   <ul>
                     {props.data
                       ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
+                          <li key={`${d}-${i}`}><i className="fa fa-check-circle"></i> {d}</li>
                         ))
                       : "loading"}
                   </ul>
@@ -26,10 +26,19 @@ export const About = (props) => {
                   <ul>
                     {props.data
                       ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
+                          <li key={`${d}-${i}`}><i className="fa fa-check-circle"></i> {d}</li>
                         ))
                       : "loading"}
                   </ul>
+                </div>
+              </div>
+              <div className="about-partners">
+                <p className="partners-title">Certified Technology Partners</p>
+                <div className="partner-badges">
+                  <span className="partner-badge"><i className="fa fa-cloud"></i> AWS</span>
+                  <span className="partner-badge"><i className="fa fa-windows"></i> Microsoft</span>
+                  <span className="partner-badge"><i className="fa fa-google"></i> Google Cloud</span>
+                  <span className="partner-badge"><i className="fa fa-database"></i> SAP</span>
                 </div>
               </div>
             </div>
@@ -39,3 +48,4 @@ export const About = (props) => {
     </div>
   );
 };
+

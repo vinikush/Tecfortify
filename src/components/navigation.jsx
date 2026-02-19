@@ -15,7 +15,12 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <img src="img/__tec.jpg" alt='' className="logo" />{' '}
+          <a className='navbar-brand page-scroll' href='#page-top'>
+            <span className='brand-logo'>
+              <i className='fa fa-hexagon brand-icon'></i>
+              <span className='brand-name'>Mobnox <span className='brand-highlight'>Innovations</span></span>
+            </span>
+          </a>
         </div>
 
         <div
@@ -25,7 +30,7 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Features
+                Why Us
               </a>
             </li>
             <li>
@@ -39,23 +44,23 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href='#portfolio' className='page-scroll'>
-                Gallery
+              <a href='#industries' className='page-scroll'>
+                Industries
               </a>
             </li>
             <li>
-              <a href='#testimonials' className='page-scroll'>
-                Testimonials
+              <a href='#portfolio' className='page-scroll'>
+                Case Studies
               </a>
             </li>
             <li>
               <a href='#team' className='page-scroll'>
-                Team
+                Leadership
               </a>
             </li>
             <li>
-              <a href='#contact' className='page-scroll'>
-                Contact
+              <a href='#contact' className='page-scroll btn-nav-cta'>
+                Contact Us
               </a>
             </li>
           </ul>
@@ -64,3 +69,4 @@ export const Navigation = (props) => {
     </nav>
   )
 }
+

@@ -1,184 +1,271 @@
 {
   "Header": {
-    "title": "TECFORTIFY",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Mobnox Innovations",
+    "paragraph": "Transforming Businesses Through Digital Excellence. We partner with Fortune 500 companies and emerging enterprises to accelerate growth through cutting-edge technology consulting and digital transformation."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Founded with a vision to bridge the gap between technology and business outcomes, Mobnox Innovations has grown into a globally recognized technology consultancy. We combine deep industry expertise with innovative thinking to help organizations navigate digital disruption, optimize operations, and unlock new growth opportunities. Our team of 500+ expert consultants operates across 30 countries, delivering measurable results for our clients.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "15+ Years of Industry Excellence",
+      "500+ Expert Consultants Globally",
+      "Certified Microsoft & AWS Partner",
+      "Agile & DevSecOps Methodology"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "24/7 Dedicated Support Teams",
+      "ISO 27001 Security Certified",
+      "Fortune 500 Proven Track Record",
+      "End-to-End Digital Solutions"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "Global Banking Transformation",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Healthcare AI Platform",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Retail Cloud Migration",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Smart Manufacturing IoT",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Energy Management Platform",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Supply Chain Optimization",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Cybersecurity Overhaul",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Enterprise Data Analytics",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Digital Payments Solution",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-rocket",
+      "name": "Digital Transformation",
+      "text": "End-to-end digital transformation strategies that modernize legacy systems, streamline operations, and position your enterprise for sustainable competitive advantage in the digital era."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cloud",
+      "name": "Cloud Solutions & Migration",
+      "text": "Seamless multi-cloud and hybrid cloud architectures on AWS, Azure, and Google Cloud. We design, migrate, and optimize your cloud infrastructure for maximum performance and cost efficiency."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-brain",
+      "name": "AI & Machine Learning",
+      "text": "Harness the power of artificial intelligence and advanced machine learning to automate intelligent workflows, unlock predictive insights, and build next-generation enterprise applications."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-shield",
+      "name": "Cybersecurity Services",
+      "text": "Comprehensive security assessments, zero-trust architecture, threat detection, and incident response. We safeguard your enterprise assets against evolving cyber threats and ensure regulatory compliance."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-code",
+      "name": "Enterprise Software Development",
+      "text": "Custom enterprise applications, microservices, and API ecosystems built with modern architectures. From concept to deployment, we deliver scalable, secure, and high-performance software solutions."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cogs",
+      "name": "Business Process Optimization",
+      "text": "Intelligent process automation, workflow redesign, and operational excellence programs that reduce costs, eliminate inefficiencies, and accelerate your business velocity."
+    },
+    {
+      "icon": "fa fa-bar-chart",
+      "name": "Data Analytics & Business Intelligence",
+      "text": "Transform raw data into actionable business intelligence with our advanced analytics platforms, real-time dashboards, and data governance frameworks that drive informed decision-making."
+    },
+    {
+      "icon": "fa fa-wifi",
+      "name": "IoT Solutions",
+      "text": "Connected device ecosystems, industrial IoT platforms, and smart infrastructure solutions. We design and implement IoT architectures that create new revenue streams and operational efficiencies."
+    }
+  ],
+  "Statistics": [
+    {
+      "icon": "fa fa-calendar",
+      "value": 15,
+      "suffix": "+",
+      "title": "Years of Excellence"
+    },
+    {
+      "icon": "fa fa-check-circle",
+      "value": 1200,
+      "suffix": "+",
+      "title": "Projects Delivered"
+    },
+    {
+      "icon": "fa fa-globe",
+      "value": 350,
+      "suffix": "+",
+      "title": "Global Clients"
+    },
+    {
+      "icon": "fa fa-map-marker",
+      "value": 30,
+      "suffix": "+",
+      "title": "Countries Served"
+    },
+    {
+      "icon": "fa fa-users",
+      "value": 500,
+      "suffix": "+",
+      "title": "Expert Consultants"
+    },
+    {
+      "icon": "fa fa-certificate",
+      "value": 120,
+      "suffix": "+",
+      "title": "Industry Certifications"
+    }
+  ],
+  "Industries": [
+    {
+      "icon": "fa fa-university",
+      "title": "Banking & Finance",
+      "text": "Core banking modernization, fintech integration, regulatory compliance, and fraud prevention solutions."
+    },
+    {
+      "icon": "fa fa-heartbeat",
+      "title": "Healthcare & Life Sciences",
+      "text": "Digital health platforms, EHR systems, clinical analytics, and telehealth solutions for better patient outcomes."
+    },
+    {
+      "icon": "fa fa-shopping-cart",
+      "title": "Retail & E-Commerce",
+      "text": "Omnichannel platforms, personalization engines, supply chain digitization, and customer experience transformation."
+    },
+    {
+      "icon": "fa fa-industry",
+      "title": "Manufacturing",
+      "text": "Smart factory solutions, predictive maintenance, IoT integration, and Industry 4.0 transformation programs."
+    },
+    {
+      "icon": "fa fa-desktop",
+      "title": "Technology",
+      "text": "Product engineering, platform scalability, DevOps transformation, and technology strategy for tech companies."
+    },
+    {
+      "icon": "fa fa-bolt",
+      "title": "Energy & Utilities",
+      "text": "Smart grid modernization, renewable energy management, asset optimization, and operational efficiency solutions."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "Mobnox Innovations transformed our entire digital infrastructure within 18 months. Their team's expertise in cloud migration and AI implementation has resulted in a 40% reduction in operational costs and a 60% improvement in system performance.",
+      "name": "Sarah Mitchell",
+      "company": "CTO, Global Finance Corp"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "The cybersecurity framework implemented by Mobnox has been exceptional. We've seen zero critical incidents since deployment, and their proactive threat monitoring gives our leadership team complete peace of mind.",
+      "name": "James Patel",
+      "company": "CISO, HealthFirst Systems"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "Working with Mobnox on our digital transformation journey was a game-changer. They delivered a custom e-commerce platform that increased our online revenue by 85% in the first year. Outstanding partnership.",
+      "name": "Elena Rodriguez",
+      "company": "VP Digital, RetailMax International"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "Mobnox's AI and machine learning solutions gave us predictive insights we never had before. Our manufacturing defect rates dropped by 32% and production efficiency improved significantly within just 6 months.",
+      "name": "David Chen",
+      "company": "COO, Apex Manufacturing Group"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "The enterprise software solution delivered by Mobnox seamlessly integrates with our legacy systems while providing modern capabilities. Their team's professionalism and technical depth is unmatched in the industry.",
+      "name": "Amanda Foster",
+      "company": "Director of IT, EnergyPro Solutions"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "Mobnox's data analytics platform gave our executives real-time visibility across all business units. Decision-making speed improved by 50% and we identified $12M in cost savings in the first quarter of deployment.",
+      "name": "Michael Thompson",
+      "company": "CEO, Nexus Retail Group"
     }
   ],
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Alexandra Stone",
+      "job": "Chief Executive Officer"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Rajiv Menon",
+      "job": "Chief Technology Officer"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Priya Sharma",
+      "job": "Chief Strategy Officer"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Marcus Williams",
+      "job": "VP of Global Delivery"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "One Mobnox Plaza, 500 Technology Drive, San Francisco, CA 94105",
+    "phone": "+1 (800) 662-6929",
+    "email": "consulting@mobnox.com",
+    "facebook": "https://facebook.com/mobnoxinnovations",
+    "twitter": "https://twitter.com/mobnox",
+    "youtube": "https://youtube.com/mobnox",
+    "linkedin": "https://linkedin.com/company/mobnox"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-lightbulb-o",
+      "title": "Innovation-Driven",
+      "text": "We leverage the latest technologies and innovative thinking to solve complex business challenges, staying ahead of industry trends to deliver future-ready solutions."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-globe",
+      "title": "Global Reach",
+      "text": "With operations in 30+ countries and a diverse team of 500+ experts, we deliver consistent, world-class consulting services wherever your business operates."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-line-chart",
+      "title": "Proven Results",
+      "text": "Our track record speaks for itself — 1,200+ successful projects, an average 35% efficiency improvement, and 98% client satisfaction rate across all engagements."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-lock",
+      "title": "Enterprise Security",
+      "text": "ISO 27001 certified with zero-trust security frameworks built into every solution. We protect your most valuable digital assets with industry-leading security practices."
     }
   ]
 }
